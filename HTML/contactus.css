@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-color: #E1FFEE;
+  background-size: cover;
+}
+h3{
+  color:#00ccff;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  /* background:#233c3d; */
+  background: transparent url(partially/transparent/60percent-opaque.png) 0 0 repeat;
+  padding: 25px;
+  
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #293241;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  padding-left: 0%;
+  width: 50%;
+  background: #8ecae6;
+  color: #293241;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  align-items: center;
+  text-align: center;
+  position:flex;
+  position: fixed;
+  top: 105%;
+  left: 55%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #66BFBF;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}  
